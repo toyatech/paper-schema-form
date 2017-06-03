@@ -1,0 +1,12 @@
+{
+  "name": "paper-schema-form",
+  "description": "Create complex forms from a JSON schema with polymer.",
+  "main": "paper-schema-form.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
+    "web-component-tester": "^6.0.0-prerelease.5"
+  }
+}

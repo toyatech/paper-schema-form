@@ -1,0 +1,29 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="paper-schema-form">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+
+  </template>
+
+  <script>
+    /** @polymerElement */
+    class PaperSchemaForm extends Polymer.Element {
+      static get is() { return 'paper-schema-form'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'paper-schema-form'
+          }
+        }
+      }
+    }
+    window.customElements.define(PaperSchemaForm.is, PaperSchemaForm);
+  </script>
+</dom-module>
